@@ -2,9 +2,12 @@ import { useEffect, useState } from "react";
 import { useTypewriter } from "../hooks/useTypewriter";
 
 export default function Message() {
-  const title = "Chúc mừng ngày Phụ nữ Việt Nam 20/10 🌸";
-  const message =
-    '🌸 "Gửi những người phụ nữ con yêu thương nhất…" Chúc mẹ, bà, cô, dì và em gái 20/10 thật rực rỡ, luôn xinh đẹp – hạnh phúc – bình an 💖';
+  const title = "Đôi lời gửi em 🌸";
+  const message = `🌸 "Cảm ơn em đã đến bên anh, mang theo sự dịu dàng, thấu hiểu và nụ cười tươi tắn.
+Khiến cuộc sống anh trở nên ấm áp và hạnh phúc hơn rất nhiều.
+Anh biết đôi khi anh ngốc và chưa đủ quan tâm…
+
+… nhưng không hề lơ là em. ❤️ `;
 
   const [shouldStartMessage, setShouldStartMessage] = useState(false);
 
