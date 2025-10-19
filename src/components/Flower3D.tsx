@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import flowerSvg from "../assets/flower.svg";
-import hintImg from "../assets/hint.jpg";
+import hintImg from "../assets/trang.jpg";
 
 export default function Flower3D() {
   return (
